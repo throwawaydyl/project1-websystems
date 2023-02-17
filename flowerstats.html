@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Flower Statistics</title>
+		<link id='csslink' rel="stylesheet" href="main.css" />
+	</head>
+	
+	<script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+  </script>
+	
+	<header>
+		<h1>Dopey's Flower Shop</h1>
+	</header>
+	
+	<nav class="sticky">
+		<div>
+			<ul>
+				<li><button onclick="location.href = 'index.html';"class="navbutton">Shop</button></li>
+				<li><button onclick="location.href = 'flowerstats.html';"class="navbutton">Flower Statistics</button></li>
+				<li><button onclick="toggleCSS()" class="navbutton">Switch Style</button></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<body>
+		<h2>Flower Statistics</h2>
+		
+		<div class="centerdiv">
+			<h4>What flowers do they buy?</h4>
+			<table class="center">
+				<tr>
+					<th>Outdoor Flowers</th>
+					<th>Fresh Flowers</th>
+					<th>Flowering Plants</th>
+				</tr>
+					<td>46%</td>
+					<td>34%</td>
+					<td>20%</td>
+				<tr>
+				</tr>
+			</table>
+			
+			<h4>What gender buys flowers?</h4>
+			<table class="center">
+				<tr>
+					<th>Men</th>
+					<th>Women</th>
+				</tr>
+					<td>79%</td>
+					<td>21%</td>
+				<tr>
+				</tr>
+			</table>
+			
+			<h4>For whom?</h4>
+			<table class="center">
+				<tr>
+					<th>Self</th>
+					<th>Others</th>
+				</tr>
+					<td>63%</td>
+					<td>37%</td>
+				<tr>
+				</tr>
+			</table>
+			
+			<h4>For what purpose?</h4>
+			<table class="center">
+				<tr>
+					<th>Special Occasion</th>
+					<th>No Particular Occasion</th>
+				</tr>
+					<td>77%</td>
+					<td>23%</td>
+				<tr>
+				</tr>
+			</table>
+			
+			<a href="https://safnow.org/aboutflowers/about-the-flower-industry/consumer-buying-trends/">https://safnow.org/aboutflowers/about-the-flower-industry/consumer-buying-trends/</a>
+		</div>
+	</body>
+	
+	<footer>
+		<div class="contact">
+			<a href="https://etsy.com" target="_blank">Etsy</a>
+			<a href="https://www.nationalgeographic.com/ " target="_blank">National Geograpic</a>
+			<a href="https://www.metmuseum.org/" target="_blank">The Met</a>
+			<a href="https://ourworldindata.org/" target="_blank">Our World in Data</a>
+			<a href="https://artvee.com/" target="_blank">Artvee</a>
+		</div>
+		</div>
+		<div class="copyright">
+			<p>&copy 2022 Dylan Batchelor</p>
+		</div>
+	</footer>
+</html>
