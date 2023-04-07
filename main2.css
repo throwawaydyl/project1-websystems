@@ -51,13 +51,14 @@ h4 {
 	color: lightgrey !important;
 	text-decoration: none !important;
 	text-align: center !important;
+	background-color: darkcyan !important;
 	font-size: 10pt;
 	
 }
 
 .nav-link:hover {
 	color: lightgrey !important;
-	background-color: lightseagreen;
+	background-color: lightseagreen !important;
 	color: white !important;
 	
 }
